@@ -1,0 +1,45 @@
+[
+  {
+    "id": "team_20260522052342_4da0ef3807fa6dcb:01_explore",
+    "runId": "team_20260522052342_4da0ef3807fa6dcb",
+    "taskId": "01_explore",
+    "agent": "explorer",
+    "role": "explorer",
+    "runtime": "live-session",
+    "status": "completed",
+    "startedAt": "2026-05-22T05:23:42.676Z",
+    "completedAt": "2026-05-22T05:23:55.476Z",
+    "resultArtifactPath": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/results/01_explore.txt",
+    "transcriptPath": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/logs/01_explore.log",
+    "statusPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/01_explore/status.json",
+    "eventsPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/01_explore/events.jsonl",
+    "outputPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/01_explore/output.log",
+    "toolUses": 0,
+    "jsonEvents": 0,
+    "progress": {
+      "recentTools": [],
+      "recentOutput": [],
+      "toolCount": 0
+    }
+  },
+  {
+    "id": "team_20260522052342_4da0ef3807fa6dcb:02_analyze",
+    "runId": "team_20260522052342_4da0ef3807fa6dcb",
+    "taskId": "02_analyze",
+    "agent": "analyst",
+    "role": "analyst",
+    "runtime": "live-session",
+    "status": "running",
+    "startedAt": "2026-05-22T05:23:42.679Z",
+    "statusPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/02_analyze/status.json",
+    "eventsPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/02_analyze/events.jsonl",
+    "outputPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/agents/02_analyze/output.log",
+    "toolUses": 0,
+    "progress": {
+      "recentTools": [],
+      "recentOutput": [],
+      "toolCount": 0,
+      "activityState": "needs_attention"
+    }
+  }
+]

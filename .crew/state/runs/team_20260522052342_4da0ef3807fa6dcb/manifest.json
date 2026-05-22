@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "runId": "team_20260522052342_4da0ef3807fa6dcb",
+  "team": "research",
+  "workflow": "research",
+  "goal": "Research GitHub organization https://github.com/Zapdev-labs and summarize visible repositories, main languages/tech stack, notable project themes, and cool profile README angle. Do not edit files. Return concise facts suitable for a README.",
+  "status": "running",
+  "workspaceMode": "single",
+  "createdAt": "2026-05-22T05:23:42.279Z",
+  "updatedAt": "2026-05-22T05:23:55.478Z",
+  "cwd": "/home/dih/jackson57279",
+  "stateRoot": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb",
+  "artifactsRoot": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb",
+  "tasksPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/tasks.json",
+  "eventsPath": "/home/dih/jackson57279/.crew/state/runs/team_20260522052342_4da0ef3807fa6dcb/events.jsonl",
+  "artifacts": [
+    {
+      "kind": "prompt",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/goal.md",
+      "createdAt": "2026-05-22T05:23:42.281Z",
+      "producer": "team-tool",
+      "sizeBytes": 241,
+      "contentHash": "326c7542da7d0346f8e1c05a26f0d89846e308a2a66846ea458ab0f61f829467",
+      "retention": "run"
+    },
+    {
+      "kind": "progress",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/progress.md",
+      "createdAt": "2026-05-22T05:23:42.657Z",
+      "producer": "team-runner",
+      "sizeBytes": 552,
+      "contentHash": "cfdfb9ab6d157b0e07e284d548c0397426220896da18cc6684b94205e91c4290",
+      "retention": "run"
+    },
+    {
+      "kind": "prompt",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/prompts/01_explore.md",
+      "createdAt": "2026-05-22T05:23:42.687Z",
+      "producer": "01_explore",
+      "sizeBytes": 8098,
+      "contentHash": "cc9623d90e11c075f303de84bde1c76ea8f60e9ae7ed0af5f32e3e3be4c74521",
+      "retention": "run"
+    },
+    {
+      "kind": "result",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/results/01_explore.txt",
+      "createdAt": "2026-05-22T05:23:55.475Z",
+      "producer": "01_explore",
+      "sizeBytes": 11,
+      "contentHash": "efefc15c24ee8645a3f5f6958389db729c1577eb6b32aeac4caab2a86d90daa3",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.inputs.json",
+      "createdAt": "2026-05-22T05:23:42.687Z",
+      "producer": "01_explore",
+      "sizeBytes": 46,
+      "contentHash": "4220d037ccad16132d4c28359451985b4a2fa51e74ec340212cab8b688b9b5f6",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.coordination-bridge.md",
+      "createdAt": "2026-05-22T05:23:42.688Z",
+      "producer": "01_explore",
+      "sizeBytes": 1118,
+      "contentHash": "2e677e31108158567e7140d7e6e9193baa545889e0305412171c694de850e9f3",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.skills.md",
+      "createdAt": "2026-05-22T05:23:42.687Z",
+      "producer": "01_explore",
+      "sizeBytes": 3840,
+      "contentHash": "948f9c3859e6293e55c200d2ce40bd3b71f60f2d725abd1a5fd58f84a9ffc547",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.task-packet.json",
+      "createdAt": "2026-05-22T05:23:55.476Z",
+      "producer": "01_explore",
+      "sizeBytes": 1384,
+      "contentHash": "e2009a9fe936e881e6455b115e7578479d2f4cb4b59ded1f9e9e9dc0ffd30765",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.verification.json",
+      "createdAt": "2026-05-22T05:23:55.476Z",
+      "producer": "01_explore",
+      "sizeBytes": 191,
+      "contentHash": "1280749c3abda39d74d56749995c505610f1aa3bbc4fb2f118e35e4f11c859c0",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.startup-evidence.json",
+      "createdAt": "2026-05-22T05:23:55.477Z",
+      "producer": "01_explore",
+      "sizeBytes": 283,
+      "contentHash": "e56c577fa1b916385fd0718afb2c066077d0d4db47b44d6a6407eb29df4af257",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.permission.json",
+      "createdAt": "2026-05-22T05:23:55.477Z",
+      "producer": "01_explore",
+      "sizeBytes": 58,
+      "contentHash": "d068e91667e545c975984e28d67f9be31819d406340e92fa33ed35edca2e8860",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.capabilities.json",
+      "createdAt": "2026-05-22T05:23:55.477Z",
+      "producer": "01_explore",
+      "sizeBytes": 755,
+      "contentHash": "38ecf4582f47149a0445101e5c8f9889099983e207ca913304ff378a6cfed04c",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/metadata/01_explore.prompt-pipeline.json",
+      "createdAt": "2026-05-22T05:23:55.478Z",
+      "producer": "01_explore",
+      "sizeBytes": 1008,
+      "contentHash": "ef29d08fd25ea45e7a21ceac82e49eef9cd77f2ef0bd2224a3c3274e9b14d70e",
+      "retention": "run"
+    },
+    {
+      "kind": "metadata",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/shared/01_explore.md",
+      "createdAt": "2026-05-22T05:23:55.476Z",
+      "producer": "01_explore",
+      "sizeBytes": 12,
+      "contentHash": "02a713f76226c52a198adae80526740fc4d6057636326bc8dec49635db8ae7a7",
+      "retention": "run"
+    },
+    {
+      "kind": "log",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/logs/01_explore.log",
+      "createdAt": "2026-05-22T05:23:55.475Z",
+      "producer": "01_explore",
+      "sizeBytes": 70,
+      "contentHash": "4d57293f1bfd0ae24a18739f16c529b04dcb68097372c90092ace172a0ca7ecf",
+      "retention": "run"
+    }
+  ],
+  "ownerSessionId": "019e4e23-0f7c-77bc-85a1-a70809c2c835",
+  "summary": "Executing team workflow.",
+  "runtimeResolution": {
+    "kind": "live-session",
+    "requestedMode": "auto",
+    "safety": "trusted",
+    "available": true,
+    "resolvedAt": "2026-05-22T05:23:42.283Z"
+  },
+  "runConfig": {}
+}

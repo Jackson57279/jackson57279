@@ -1,0 +1,4 @@
+{"id":"stale_reconcile","severity":"info","source":"crash-recovery","title":"Reconciled 1 stale run(s)","body":"Found and repaired ghost runs from previous sessions: team_20260522052342_4da0ef3807fa6dcb","timestamp":1779427425685}
+{"id":"stale_reconcile","severity":"info","source":"crash-recovery","title":"Reconciled 1 stale run(s)","body":"Found and repaired ghost runs from previous sessions: team_20260522052342_4da0ef3807fa6dcb","timestamp":1779427425725}
+{"id":"stale_reconcile","severity":"info","source":"crash-recovery","title":"Reconciled 1 stale run(s)","body":"Found and repaired ghost runs from previous sessions: team_20260522052342_4da0ef3807fa6dcb","timestamp":1779427487546}
+{"id":"dead_team_20260522052342_4da0ef3807fa6dcb_02_analyze","severity":"warning","source":"heartbeat-watcher","runId":"team_20260522052342_4da0ef3807fa6dcb","title":"Task 02_analyze heartbeat dead","body":"Background watcher detected a stuck worker.","timestamp":1779427727448}

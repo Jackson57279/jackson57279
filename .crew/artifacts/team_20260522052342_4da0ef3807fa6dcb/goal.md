@@ -1,0 +1,1 @@
+Research GitHub organization https://github.com/Zapdev-labs and summarize visible repositories, main languages/tech stack, notable project themes, and cool profile README angle. Do not edit files. Return concise facts suitable for a README.

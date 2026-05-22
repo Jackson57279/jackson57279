@@ -1,0 +1,194 @@
+[
+  {
+    "id": "01_explore",
+    "runId": "team_20260522052342_4da0ef3807fa6dcb",
+    "stepId": "explore",
+    "role": "explorer",
+    "agent": "explorer",
+    "title": "explore",
+    "status": "completed",
+    "dependsOn": [],
+    "cwd": "/home/dih/jackson57279",
+    "graph": {
+      "taskId": "01_explore",
+      "children": [
+        "02_analyze"
+      ],
+      "dependencies": [],
+      "queue": "ready"
+    },
+    "taskPacket": {
+      "objective": "Gather relevant facts for: Research GitHub organization https://github.com/Zapdev-labs and summarize visible repositories, main languages/tech stack, notable project themes, and cool profile README angle. Do not edit files. Return concise facts suitable for a README.",
+      "scope": "workspace",
+      "repo": "jackson57279",
+      "branchPolicy": "Use the current checkout; do not create branches unless explicitly requested.",
+      "acceptanceTests": [],
+      "commitPolicy": "Do not commit unless explicitly requested by the user or workflow.",
+      "reportingContract": "Report intended/changed files, verification evidence, blockers, conflict risks, and next recommended action.",
+      "escalationPolicy": "Stop and report if scope is ambiguous, destructive action is needed, permissions are missing, verification cannot be completed, or edits may overlap with another worker/task.",
+      "constraints": [
+        "Stay within the assigned task scope.",
+        "Do not claim completion without verification evidence.",
+        "Use mailbox/API state for coordination when available.",
+        "Do not make overlapping edits to the same file/symbol without explicit leader sequencing or ownership guidance."
+      ],
+      "expectedArtifacts": [
+        "prompt",
+        "result",
+        "verification"
+      ],
+      "verification": {
+        "requiredGreenLevel": "none",
+        "commands": [],
+        "allowManualEvidence": true
+      }
+    },
+    "startedAt": "2026-05-22T05:23:42.676Z",
+    "heartbeat": {
+      "workerId": "01_explore",
+      "lastSeenAt": "2026-05-22T05:23:55.476Z",
+      "alive": false
+    },
+    "agentProgress": {
+      "recentTools": [],
+      "recentOutput": [],
+      "toolCount": 0
+    },
+    "controlReservation": {
+      "reservedAt": "2026-05-22T05:23:42.676Z",
+      "controllerId": "ctrl:01_explore:8065e643-6127-4f36-a12d-dec6f6268264",
+      "acceptsControlEvents": true
+    },
+    "finishedAt": "2026-05-22T05:23:55.476Z",
+    "exitCode": 0,
+    "jsonEvents": 0,
+    "verification": {
+      "requiredGreenLevel": "none",
+      "observedGreenLevel": "none",
+      "satisfied": true,
+      "commands": [],
+      "notes": "live-session worker finished without reporting a verification failure."
+    },
+    "promptArtifact": {
+      "kind": "prompt",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/prompts/01_explore.md",
+      "createdAt": "2026-05-22T05:23:42.687Z",
+      "producer": "01_explore",
+      "sizeBytes": 8098,
+      "contentHash": "cc9623d90e11c075f303de84bde1c76ea8f60e9ae7ed0af5f32e3e3be4c74521",
+      "retention": "run"
+    },
+    "resultArtifact": {
+      "kind": "result",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/results/01_explore.txt",
+      "createdAt": "2026-05-22T05:23:55.475Z",
+      "producer": "01_explore",
+      "sizeBytes": 11,
+      "contentHash": "efefc15c24ee8645a3f5f6958389db729c1577eb6b32aeac4caab2a86d90daa3",
+      "retention": "run"
+    },
+    "logArtifact": {
+      "kind": "log",
+      "path": "/home/dih/jackson57279/.crew/artifacts/team_20260522052342_4da0ef3807fa6dcb/logs/01_explore.log",
+      "createdAt": "2026-05-22T05:23:55.475Z",
+      "producer": "01_explore",
+      "sizeBytes": 70,
+      "contentHash": "4d57293f1bfd0ae24a18739f16c529b04dcb68097372c90092ace172a0ca7ecf",
+      "retention": "run"
+    }
+  },
+  {
+    "id": "02_analyze",
+    "runId": "team_20260522052342_4da0ef3807fa6dcb",
+    "stepId": "analyze",
+    "role": "analyst",
+    "agent": "analyst",
+    "title": "analyze",
+    "status": "running",
+    "dependsOn": [
+      "explore"
+    ],
+    "cwd": "/home/dih/jackson57279",
+    "graph": {
+      "taskId": "02_analyze",
+      "parentId": "01_explore",
+      "children": [
+        "03_write"
+      ],
+      "dependencies": [
+        "01_explore"
+      ],
+      "queue": "blocked"
+    },
+    "taskPacket": {
+      "objective": "Analyze and organize the findings.",
+      "scope": "workspace",
+      "repo": "jackson57279",
+      "branchPolicy": "Use the current checkout; do not create branches unless explicitly requested.",
+      "acceptanceTests": [],
+      "commitPolicy": "Do not commit unless explicitly requested by the user or workflow.",
+      "reportingContract": "Report intended/changed files, verification evidence, blockers, conflict risks, and next recommended action.",
+      "escalationPolicy": "Stop and report if scope is ambiguous, destructive action is needed, permissions are missing, verification cannot be completed, or edits may overlap with another worker/task.",
+      "constraints": [
+        "Stay within the assigned task scope.",
+        "Do not claim completion without verification evidence.",
+        "Use mailbox/API state for coordination when available.",
+        "Do not make overlapping edits to the same file/symbol without explicit leader sequencing or ownership guidance."
+      ],
+      "expectedArtifacts": [
+        "prompt",
+        "result",
+        "verification"
+      ],
+      "verification": {
+        "requiredGreenLevel": "none",
+        "commands": [],
+        "allowManualEvidence": true
+      }
+    },
+    "startedAt": "2026-05-22T05:23:42.679Z",
+    "claim": {
+      "owner": "task-runner:02_analyze",
+      "token": "160cea06-d5ad-4ea0-856c-75954980774b",
+      "leasedUntil": "2026-05-22T05:28:42.679Z"
+    },
+    "heartbeat": {
+      "workerId": "02_analyze",
+      "lastSeenAt": "2026-05-22T05:23:42.679Z",
+      "alive": true
+    },
+    "agentProgress": {
+      "recentTools": [],
+      "recentOutput": [],
+      "toolCount": 0
+    },
+    "dependencyContextText": "# Dependency Outputs\n\n## 01_explore (explorer)\nStatus: queued\n\n\n(no result output)",
+    "controlReservation": {
+      "reservedAt": "2026-05-22T05:23:42.679Z",
+      "controllerId": "ctrl:02_analyze:536b7e00-9670-4620-b6b7-48d6335582d2",
+      "acceptsControlEvents": true
+    }
+  },
+  {
+    "id": "03_write",
+    "runId": "team_20260522052342_4da0ef3807fa6dcb",
+    "stepId": "write",
+    "role": "writer",
+    "agent": "writer",
+    "title": "write",
+    "status": "queued",
+    "dependsOn": [
+      "analyze"
+    ],
+    "cwd": "/home/dih/jackson57279",
+    "graph": {
+      "taskId": "03_write",
+      "parentId": "02_analyze",
+      "children": [],
+      "dependencies": [
+        "02_analyze"
+      ],
+      "queue": "blocked"
+    }
+  }
+]
