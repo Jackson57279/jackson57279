@@ -1,4 +1,4 @@
-# Hey, I'm Zapdev 👋
+# Hey, I'm Jackson 👋
 
 I build AI products, local-first developer tools, and experimental systems that make powerful models easier to run, test, and ship.
 
