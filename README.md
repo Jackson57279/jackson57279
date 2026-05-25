@@ -5,6 +5,7 @@ I build AI products, local-first developer tools, and experimental systems that 
 <p>
   <a href="https://github.com/Zapdev-labs"><img alt="Zapdev Labs" src="https://img.shields.io/badge/Zapdev--labs-Build%20AI%20Products-111827?style=for-the-badge&logo=github" /></a>
   <a href="https://zapdev.link"><img alt="Website" src="https://img.shields.io/badge/zapdev.link-Visit-2563eb?style=for-the-badge" /></a>
+  <a href="https://tokscale.ai/u/Jackson57279"><img alt="Tokscale Stats" src="https://tokscale.ai/api/embed/Jackson57279/svg?compact=1&graph=1&tokens=compact&cost=compact" /></a>
 </p>
 
 ---
