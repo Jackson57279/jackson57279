@@ -31,18 +31,6 @@ I build AI products, local-first developer tools, and experimental systems that 
 
 ---
 
-## 🧰 Tech I like
-
-```txt
-Languages     Rust · TypeScript · Python
-AI/LLMs       local inference · agents · evals · quantization · OpenAI-compatible APIs
-Frontend      Next.js · React · modern product UI
-Backend       Node.js · Convex · Inngest · APIs · sandboxes
-Focus         developer tools · automation · performance · self-hosted systems
-```
-
----
-
 ## 🧪 Current direction
 
 I'm especially interested in projects that combine:
