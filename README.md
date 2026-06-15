@@ -25,9 +25,8 @@ I build AI products, local-first developer tools, and experimental systems that 
 |---|---|---|
 | [**oxidize**](https://github.com/Zapdev-labs/oxidize) | Rust workspace for local LLM tooling: CLI, server, quantization utilities, core model primitives, and Python bindings | Rust, pyo3, WASM |
 | [**zapdev**](https://github.com/Zapdev-labs/zapdev) | AI-powered app builder with live sandboxes, streaming agents, and persistent project state | Next.js, React, Convex, Inngest |
-| [**miniforge**](https://github.com/Zapdev-labs/miniforge) | High-performance Python library for MiniMax inference with quantization, tool calling, streaming, and runtime presets | Python, GGUF |
 | [**self-learning-ai**](https://github.com/Zapdev-labs/self-learning-ai) | Locally-run self-improving AI coding agent with sandbox evaluation and LoRA learning loops | Python, ML/AI |
-| [**loftlyy**](https://github.com/Zapdev-labs/loftlyy) | Brand identity inspiration and visual research | TypeScript |
+
 
 ---
 
